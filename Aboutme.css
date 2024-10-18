@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("img/a6038380-869c-41b1-9cfa-5741d1ad73aa.jpeg");
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 7px 30px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: #27df42;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 45px rgba(255, 255, 255, 0.3);
+}
+
+
+.logo {
+    width: 50px;
+    height: 50PX;
+}
+
+.kotak {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.kotak img {
+    width: 350px ;
+    height: 150px;
+    border-radius: 400px;
+}
+
+.jarak {
+    padding: 10%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.jarak h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.jarak h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.jarak h6 {
+    font-size: large;
+    background-color: rgb(38, 255, 0);
+    border-radius: 20px;
+}
+
+.wa {
+    background-color: black;
+    border-radius: 20px;
+}
